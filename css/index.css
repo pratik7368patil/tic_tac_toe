@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+}
+
+.row {
+  height: 33.3%;
+  width: 100%;
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.col {
+  height: 100%;
+  width: 33%;
+  border: 1px solid #2b2b2b;
+  margin: 2px;
+  color: darkgray;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
